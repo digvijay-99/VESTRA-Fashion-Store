@@ -1,4 +1,4 @@
-# VESTRA — Editorial Fashion Store (Vanilla JS)
+# VESTRA — Editorial Fashion Store 
 
 A front-end e-commerce mini-project: a clothing store home page and shopping bag, built with plain **HTML, CSS, and JavaScript** — no frameworks, no backend.
 
