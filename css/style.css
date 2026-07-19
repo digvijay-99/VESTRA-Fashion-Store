@@ -1,7 +1,4 @@
-/* ===================================================================
-   VESTRA — editorial lookbook storefront
-   Design tokens
-=================================================================== */
+
 :root {
   --ink: #14120f;
   --ink-soft: #1e1b16;
@@ -45,9 +42,7 @@ img { max-width: 100%; display: block; }
   * { animation-duration: 0.001ms !important; transition-duration: 0.001ms !important; }
 }
 
-/* ===================================================================
-   Header / masthead
-=================================================================== */
+
 header {
   position: sticky;
   top: 0;
@@ -148,9 +143,7 @@ header {
 .nav_bar a:hover { color: var(--bone); border-color: var(--gold); }
 .nav_bar sup { color: var(--gold); font-size: 9px; margin-left: 2px; }
 
-/* ===================================================================
-   Hero
-=================================================================== */
+
 .hero {
   padding: 70px 40px 60px;
   border-bottom: 1px solid var(--line);
@@ -242,7 +235,7 @@ main { min-height: 60vh; }
 }
 .item-card:hover { border-color: var(--line-strong); transform: translateY(-4px); }
 
-/* Abstract art-directed "swatch" in place of product photography */
+
 .swatch {
   aspect-ratio: 4 / 5;
   position: relative;
@@ -267,7 +260,6 @@ main { min-height: 60vh; }
   mix-blend-mode: overlay;
 }
 
-/* Signature element: hanging retail price tag */
 .price-tag {
   position: relative;
   z-index: 2;
@@ -355,9 +347,6 @@ main { min-height: 60vh; }
 }
 .btn-add-bag:hover { background: var(--gold); color: var(--ink); }
 
-/* ===================================================================
-   Footer
-=================================================================== */
 footer { border-top: 1px solid var(--line); padding: 50px 40px 30px; }
 .footer_container {
   display: grid;
@@ -382,9 +371,7 @@ footer { border-top: 1px solid var(--line); padding: 50px 40px 30px; }
 footer hr { border: none; border-top: 1px solid var(--line); margin: 40px 0 20px; }
 .copyright { font-size: 12px; color: var(--bone-dim); letter-spacing: 0.5px; }
 
-/* ===================================================================
-   Bag page
-=================================================================== */
+
 .bag-page {
   display: grid;
   grid-template-columns: 1fr 360px;
@@ -530,9 +517,6 @@ footer hr { border: none; border-top: 1px solid var(--line); margin: 40px 0 20px
 }
 .btn-back-shop:hover { background: var(--gold); color: var(--ink); }
 
-/* ===================================================================
-   Responsive
-=================================================================== */
 @media (max-width: 900px) {
   .bag-page { grid-template-columns: 1fr; }
   .summary-card { position: static; }
